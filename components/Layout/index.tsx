@@ -26,7 +26,9 @@ const Layout = function Layout({ children }: LayoutProps) {
         }
 
         .content {
+          height: 100%;
           text-align: center;
+          padding: 7.5em;
         }
       `}</style>
     </div>

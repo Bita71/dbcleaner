@@ -364,7 +364,7 @@ export default function Check() {
               display: "flex",
               flexDirection: "column",
               width: 1000,
-              height: 600,
+              height: '100%',
             }}
           >
             <Stepper activeStep={activeStep}>
