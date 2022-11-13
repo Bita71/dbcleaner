@@ -30,7 +30,7 @@ export default function Collection() {
       return [];
     }
 
-    return Object.keys(collectionData[0])
+    return Object.keys(collectionData.sort((a, b) => Object.keys(b).length - Object.keys(a).length)[0])
       .filter((key) => key !== "_id")
       .map((key) => ({
         field: key,
