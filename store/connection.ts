@@ -36,6 +36,7 @@ export const connectionSlice = createSlice({
     },
     setDatabase: (state, action: PayloadAction<string>) => {
       state.database = action.payload;
+      state.collection = '';
     },
     setCollection: (state, action: PayloadAction<string>) => {
       state.collection = action.payload;
