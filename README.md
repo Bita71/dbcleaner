@@ -1,4 +1,4 @@
-# Crypto Pay
+# DBCleaner
 
 This project allows you to clean up you MongoDB database.
 
